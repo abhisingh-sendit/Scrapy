@@ -20,7 +20,7 @@ class ValidateItemPipeline(object):
 class WriteItemPipeline(object):
 
     def __init__(self):
-        self.filename = 'imdb.csv'
+        self.filename = 'metacritic.csv'
 
     def open_spider(self, spider):
         self.csvfile = open(self.filename, 'wb')

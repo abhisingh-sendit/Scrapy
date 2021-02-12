@@ -7,12 +7,6 @@
 
 import scrapy
 
-class ImdbItem(scrapy.Item):
-    title = scrapy.Field()
-    year = scrapy.Field()
-    rank = scrapy.Field()
-    rating = scrapy.Field()
-
 class MetaCriticItem(scrapy.Item):
     title = scrapy.Field()
     year = scrapy.Field()
